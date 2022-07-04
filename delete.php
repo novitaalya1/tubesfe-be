@@ -6,5 +6,9 @@
     $response = curl_exec($curl);
     $hasil = json_decode($response, true);
 
+<<<<<<< Updated upstream
     callAPI('DELETE', 'https://y9d9l5wr.directus.app/items/biodata?fields=nama,tgl_lahir,tinggi,berat,kota.nama,agama.nama' . $id, false);
+=======
+    callAPI('DELETE', $$url . $id, false);
+>>>>>>> Stashed changes
 ?>
