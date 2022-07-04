@@ -27,9 +27,9 @@
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>";
             echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1' href='Update.html' data-page-id='621100634'>Edit</a>";
         echo "</td>";
-        // <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
-        //     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" href="https://nicepage.com/k/auction-website-templates">Delete</a>
-        // </td>
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16'>";
+            echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2' href='Delete.html' data-page-id='4238797'>Delete</a>";
+        echo "</td>";
       echo "</tr>";
       echo "</tbody>";
         }
