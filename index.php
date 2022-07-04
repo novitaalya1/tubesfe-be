@@ -24,8 +24,8 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-084c"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
+  <body data-home-page="home.php" data-home-page-title="Home" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-084c"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1">
           <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -37,7 +37,7 @@
             </a>
           </div>
           <div class="u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="home.php" style="padding: 10px 20px;">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Create.html" style="padding: 10px 20px;">Create</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Update.html" style="padding: 10px 20px;">Update</a>
 </li></ul>
@@ -46,7 +46,7 @@
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Create.html">Create</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Update.html">Update</a>
 </li></ul>
@@ -56,11 +56,11 @@
           </div>
         </nav>
       </div></header>
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256" data-image-height="256" id="sec-9efe">
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="images/1.jpeg" data-image-width="256" data-image-height="256" id="sec-9efe">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h1 class="u-text u-text-default u-title u-text-1">BIODATA</h1>
-        <p class="u-large-text u-text u-text-default u-text-variant u-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-        <a href="#" class="u-btn u-button-style u-palette-2-base u-btn-1">Read More</a>
+        <h1 class="u-text u-text-default u-title u-text-1">BIODATA IK-3B</h1>
+        <p class="u-large-text u-text u-text-default u-text-variant u-text-2">Persembahan dari Kelompok 1 dan 6</p>
+        <a href="Team.html" class="u-btn u-button-style u-palette-2-base u-btn-1">Team</a>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-a3da">
@@ -149,7 +149,7 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-a35f"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Kelompok 1 dan 6.</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">@Kelompok 1 dan 6</p>
       </div></footer>
   
 </body></html>
