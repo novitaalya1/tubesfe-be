@@ -87,7 +87,7 @@
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Kota</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Agama</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Tinggi</th>
-                <th class="u-border-3 u-border-grey-50 u-table-cell u-table-cell-6">Berat</th>
+                <th class="u-border-3 u-border-grey-50 u-table-cell">Berat</th>
                 <th class="u-border-3 u-border-grey-50 u-table-cell u-table-cell-7"></th>
                 <th class="u-border-3 u-border-grey-50 u-table-cell u-table-cell-8"></th>
               </tr>

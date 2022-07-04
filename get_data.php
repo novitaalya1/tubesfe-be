@@ -17,6 +17,7 @@
         echo "<tr style='height: 75px;'>";
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['nama']."</td>";
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['tgl_lahir']."</td>";
+<<<<<<< Updated upstream
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$encode_kota."</td>";
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$encode_agama."</td>";
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['tinggi']."</td>";
@@ -24,14 +25,30 @@
         // <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
         // <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
         // <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
+=======
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['tinggi']."</td>";
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['berat']."</td>";
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['kota.nama']."</td>";
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>".$hasil['data'][$x]['agama.nama']."</td>";
+        // echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>";
+        //     echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1' href='Update.html' data-page-id='621100634'>Edit</a>";
+        // echo "</td>";
+        // echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16'>";
+        //      echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2' href='https://nicepage.com/k/auction-website-templates'>Delete</a>";
+        // echo "</td>";
+>>>>>>> Stashed changes
         echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell'>";
             echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1' href='Update.html' data-page-id='621100634'>Edit</a>";
         echo "</td>";
-        // <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
-        //     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" href="https://nicepage.com/k/auction-website-templates">Delete</a>
-        // </td>
+        echo "<td class='u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16'>";
+            echo "<a class='u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2' href='Delete.html' data-page-id='4238797'>Delete</a>";
+        echo "</td>";
+<<<<<<< Updated upstream
       echo "</tr>";
       echo "</tbody>";
+=======
+        echo "</tbody>";
+>>>>>>> Stashed changes
         }
         
     }
