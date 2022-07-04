@@ -7,7 +7,7 @@
     $response = curl_exec($curl);
     $hasil = json_decode($response, true);
     
-    for ($x = 0; $x < 6; $x++){
+    for ($x = 0; $x < 25; $x++){
         echo "<tbody class='u-table-body'>";
         if ($x >= 0){
         $kota = $hasil['data'][$x]['kota'];
