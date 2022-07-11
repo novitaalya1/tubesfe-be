@@ -65,6 +65,11 @@
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-a3da">
       <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="btn-group" role="group">
+        <a href="https://y9d9l5wr.directus.app/admin/content/biodata/+" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Create</a>
+        <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Edit</a>
+        <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Delete</a>
+					</div>
         <div class="u-list u-list-1">
           <div class="u-repeater u-repeater-1"></div>
         </div>
@@ -141,9 +146,6 @@
               </tbody>-->
           </table>
         </div>
-        <a href="https://y9d9l5wr.directus.app/admin" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Create</a>
-        <a href="" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Edit</a>
-        <a href="" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Delete</a>
       </div>
     </section>
     
