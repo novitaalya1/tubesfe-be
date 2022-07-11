@@ -95,7 +95,7 @@
             <?php
             include('get_data.php');
             ?>
-              <!-- <tbody class="u-table-body">
+              <!-- <!-- <tbody class="u-table-body">
                 <tr style="height: 75px;">
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
@@ -103,13 +103,13 @@
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
+                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"> -->
                     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1" href="Update.html" data-page-id="621100634">Edit</a>
                   </td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
                     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" href="https://nicepage.com/k/auction-website-templates">Delete</a>
-                  </td>
-                </tr>
+                  </td> 
+                <!-- </tr>
                 <tr style="height: 76px;">
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
@@ -139,11 +139,11 @@
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                </tr>
+                </tr> -->
               </tbody> -->
           </table>
         </div>
-        <a href="Create.html" data-page-id="2656609891" class="u-btn u-button-style u-btn-3">Create</a>
+        <a href="https://y9d9l5wr.directus.app/admin" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style u-btn-3">Create</a>
       </div>
     </section>
     

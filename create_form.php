@@ -60,14 +60,14 @@
     <section class="u-align-center u-clearfix u-section-1" id="sec-6739">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-form u-form-1">
-          <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="email" name="form">
+          <form action="create.php" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="email" name="form">
             <div class="u-form-group u-form-name u-label-none">
               <label for="name-6797" class="u-form-control-hidden u-label"></label>
               <input type="text" placeholder="Nama" id="name-6797" name="nama" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
             </div>
             <div class="u-form-email u-form-group u-label-none">
-              <label for="email-6797" class="u-form-control-hidden u-label"></label>
-              <input type="email" placeholder="Tanggal Lahir" id="email-6797" name="tgl_lahir" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+              <label for="nama-6797" class="u-form-control-hidden u-label"></label>
+              <input type="date" placeholder="Tanggal Lahir" id="email-6797" name="tgl_lahir" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
             </div>
             <div class="u-form-group u-label-none u-form-group-3">
               <label for="text-cd1b" class="u-label">kota</label>
@@ -85,13 +85,13 @@
               <label for="text-facd" class="u-form-control-hidden u-label"></label>
               <input type="text" placeholder="Berat Badan" id="text-facd" name="berat" class="u-border-1 u-border-grey-30 u-input u-input-rectangle">
             </div>
-            <div class="u-align-left u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
-            </div>
-            <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+            <!-- <div class="u-align-left u-form-group u-form-submit"> -->
+              <!-- <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a> -->
+              <input type="submit" name="create" value="create" class="btn solid">
+            <!-- </div> -->
+            <!-- <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
             <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-            <input type="hidden" value="" name="recaptchaResponse">
+            <input type="hidden" value="" name="recaptchaResponse"> -->
           </form>
         </div>
       </div>
