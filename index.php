@@ -71,31 +71,29 @@
         <div class="u-expanded-width u-table u-table-responsive u-table-1">
           <table class="u-table-entity u-table-entity-1">
             <colgroup>
+              <col width="10%">
               <col width="12.4%">
               <col width="12.4%">
               <col width="12.4%">
               <col width="12.4%">
-              <col width="12.6%">
-              <col width="13.6%">
-              <col width="11.2%">
-              <col width="13.200000000000003%">
+              <col width="12.4%">
+              <col width="12.4%">
             </colgroup>
             <thead class="u-grey-50 u-table-header u-table-header-1">
               <tr style="height: 41px;">
+                <th class="u-border-1 u-border-grey-50 u-table-cell">No</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Nama</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Tanggal Lahir</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Kota</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Agama</th>
                 <th class="u-border-1 u-border-grey-50 u-table-cell">Tinggi</th>
-                <th class="u-border-3 u-border-grey-50 u-table-cell">Berat</th>
-                <th class="u-border-3 u-border-grey-50 u-table-cell u-table-cell-7"></th>
-                <th class="u-border-3 u-border-grey-50 u-table-cell u-table-cell-8"></th>
+                <th class="u-border-1 u-border-grey-50 u-table-cell">Berat</th>
               </tr>
             </thead>
             <?php
             include('get_data.php');
             ?>
-              <!-- <!-- <tbody class="u-table-body">
+              <!-- <tbody class="u-table-body">
                 <tr style="height: 75px;">
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
@@ -103,13 +101,13 @@
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"> -->
+                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"> 
                     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1" href="Update.html" data-page-id="621100634">Edit</a>
                   </td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
                     <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" href="https://nicepage.com/k/auction-website-templates">Delete</a>
                   </td> 
-                <!-- </tr>
+                </tr>
                 <tr style="height: 76px;">
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
@@ -139,11 +137,13 @@
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
                   <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                </tr> -->
-              </tbody> -->
+                </tr> 
+              </tbody>-->
           </table>
         </div>
-        <a href="https://y9d9l5wr.directus.app/admin" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style u-btn-3">Create</a>
+        <a href="https://y9d9l5wr.directus.app/admin" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Create</a>
+        <a href="" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Edit</a>
+        <a href="" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Delete</a>
       </div>
     </section>
     
