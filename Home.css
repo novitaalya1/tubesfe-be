@@ -85,6 +85,8 @@
 }
 
 .u-section-2 .u-btn-1 {
+  width: 10px;
+  height: 200px;
   border-style: none;
   font-weight: 700;
   text-transform: uppercase;

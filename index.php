@@ -11,7 +11,8 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.13.4, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     
     <script type="application/ld+json">{
@@ -38,8 +39,8 @@
           </div>
           <div class="u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="home.php" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Create.html" style="padding: 10px 20px;">Create</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Update.html" style="padding: 10px 20px;">Update</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" target="_blank" href="https://y9d9l5wr.directus.app/admin/content/biodata/+" style="padding: 10px 20px;">Create</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" target="_blank" href="https://y9d9l5wr.directus.app/admin/content/biodata" style="padding: 10px 20px;">Update</a>
 </li></ul>
           </div>
           <div class="u-nav-container-collapse">
@@ -47,8 +48,8 @@
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="home.php">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Create.html">Create</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Update.html">Update</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" target="_blank" href="https://y9d9l5wr.directus.app/admin/content/biodata/+">Create</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" target="_blank" href="https://y9d9l5wr.directus.app/admin/content/biodata/">Update</a>
 </li></ul>
               </div>
             </div>
@@ -64,12 +65,10 @@
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-a3da">
-      <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="btn-group" role="group">
-        <a href="https://y9d9l5wr.directus.app/admin/content/biodata/+" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Create</a>
-        <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Edit</a>
-        <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" data-page-id="2656609891" class="u-btn u-button-style">Delete</a>
-					</div>
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <a href="https://y9d9l5wr.directus.app/admin/content/biodata/+" target="_blank" rel="noopener noreferrer" class="w3-button w3-blue" style="margin: 10px;">Create</a>
+      <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" class="w3-button w3-blue" style="margin: 10px;">Edit</a>
+      <a href="https://y9d9l5wr.directus.app/admin/content/biodata" target="_blank" rel="noopener noreferrer" class="w3-button w3-blue" style="margin: 10px;">Delete</a>
         <div class="u-list u-list-1">
           <div class="u-repeater u-repeater-1"></div>
         </div>
@@ -98,52 +97,6 @@
             <?php
             include('get_data.php');
             ?>
-              <!-- <tbody class="u-table-body">
-                <tr style="height: 75px;">
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"> 
-                    <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1" href="Update.html" data-page-id="621100634">Edit</a>
-                  </td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
-                    <a class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" href="https://nicepage.com/k/auction-website-templates">Delete</a>
-                  </td> 
-                </tr>
-                <tr style="height: 76px;">
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                </tr>
-                <tr style="height: 56px;">
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                </tr>
-                <tr style="height: 76px;">
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                  <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"></td>
-                </tr> 
-              </tbody>-->
           </table>
         </div>
       </div>
